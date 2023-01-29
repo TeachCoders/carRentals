@@ -1,0 +1,224 @@
+.car-header .navbar-expand-lg .navbar-nav .dropdown-menu{
+  visibility: hidden;
+  opacity: 0;
+  top: 100%;
+  position: absolute;
+  text-align: left;
+  border-top: 2px solid  #b30334;
+  -webkit-box-shadow: 0 2px 10px -2px rgb(0 0 0 / 10%);
+  box-shadow: 0 2px 10px -2px rgb(0 0 0 / 10%);
+  padding: 0px 0;
+  margin-top:0px;
+  margin-left: 0px;
+  background: #fff;
+  -webkit-transition: 0.2s 0s;
+  -o-transition: 0.2s 0s;
+  transition: 0.2s 0s;
+  min-width :200px;
+}
+.car-header li.nav-item.dropdown:hover .dropdown-menu{
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+  margin-top:0px;
+  visibility: visible;
+  opacity: 1;
+  border-radius:0;
+}
+.car-header .dropdown-item{
+  padding:0px;
+}
+.dropdown-item:hover{color:#b30334; text-decoration: underline; background:none;}
+.car-header .dropdown-menu ul li:hover{
+  background: #f8f9fa;
+}
+.car-header .top-bar {
+  color: #000;
+  background: #eee;  
+}
+.car-header .top-bar a{
+  color: #000;
+}
+
+.car-header{
+  border-bottom:solid 1px #ccc;
+}
+header .navbar-expand-lg li{border-bottom:solid 2px transparent;}
+
+header .navbar-expand-lg {padding:0;}
+header .navbar-expand-lg li:hover{border-bottom:solid 2px #b30334; color:#b30334;}
+header .navbar-expand-lg li:hover a{font-weight: 500;}
+header .navbar-expand-lg li:hover ul li{border:none; padding:8px;}
+.car-header .navbar-nav ul li:hover a{color:#b30334;}
+header .navbar-expand-lg .nav-link{
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #000 !important;
+  padding:1.5rem 0;
+  display: inline-block;
+  text-decoration: none !important;
+  font-weight:600;
+}
+a.navbar-brand{
+   padding-left: 10px;
+    border: solid 5px #b30334;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.navbar-brand, a.navbar-brand:hover {
+  font-size: 37px;
+  font-weight: 600;
+  color: #b30334;
+  line-height:normal;
+  /* color: #fff; */
+  padding: 0px 0px 0px 8px;
+  position: relative;
+  position: relative;
+}
+
+a.navbar-brand span, a.navbar-brand span:hover {
+  font-size: 37px;
+  font-weight: 600;
+  background: #b30334;
+  color: #fff;
+  padding: 7px 0px 11px 3px;
+  line-height: 31px;
+  position: relative;
+  margin-left: 5px;
+}
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+  opacity: 0.09;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  /* opacity: 0.4; */
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*side baar*/
+.sidbaar-list{
+  background-color:#ccc;
+  padding-bottom:5px;
+}
+.sidbaar-list h2{
+  background:#b30334;
+  padding:10px;
+  color:#fff;
+  margin:0;
+  font-size:22px;
+}
+.sidbaar-list h3{
+  font-size:17px;
+  padding:15px 0 5px 10px;
+  margin: 0 0 0px 0;
+  border-top:solid 1px #777;
+}
+
+.sidbaar-list h3:first-child{
+  border-top:none;
+}
+
+.sidbaar-list ul {
+  margin:0px 0 15px 0;
+  padding:0;
+  list-style:none;
+}
+.sidbaar-list ul li {
+  margin:0;
+  padding:5px 15px;
+}
+
+
+.sidbaar-list ul li  a{
+  color:#000;
+  text-decoration:none;
+}
+
+
+/*.list-details*/
+.list-details{
+  padding-top:30px;
+}
+.list-details .card h2{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.top-overView h1{font-size:30px; padding-bottom:5px;}
